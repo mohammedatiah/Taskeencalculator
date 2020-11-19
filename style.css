@@ -1,0 +1,88 @@
+* {
+  padding: 1%;
+  text-align: center;
+  font-family: 'Kufam', cursive;
+
+}
+body {
+background-color: #EEE;
+margin-left: auto;
+margin-right: auto;
+background-image: linear-gradient(120deg,#EEE, lightblue);
+
+}
+#container {
+  background-color: lightgray;
+  width: 80%;
+  padding: 10%;
+  width: 500px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background-color: #fff;
+			transform: translate(-50%, -50%);
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 1px 1px 20px darkgray;
+}
+
+#header {
+        text-align: center;
+  			font-size: 30px;
+  			font-weight: 600;
+    }
+
+#bmi-output{
+  color: #222f3e;
+      margin-right: 0px;
+      font-size: 20px;
+      font-weight: 200;
+      outline: none;
+      border: none;
+      background: none;
+      width: 500px;
+
+}
+#wlabel, #hlabel {
+      font-size: 25px;
+      text-align: center;
+			margin-right: : 150px;
+      margin-left: : 10px,
+}
+ #height-input, #weight-input {
+  color: #222f3e;
+			text-align: left;
+			font-size: 20px;
+			font-weight: 200;
+			outline: none;
+			border: none;
+			background: none;
+			border-bottom: 1px solid gray;
+			width: 200px;
+
+}
+
+
+@keyframes change-color {
+  from {background-color:  #003399;}
+  to {background-color: #002b80;}
+  to {background-color: #001a4d;}
+  to {background-color: #002b80;}
+}
+#btn {
+  font-size: 20px;
+  background-color: darkgray;
+  color: white;
+  animation-name: change-color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+#footer {
+  clear: both;
+  padding: 1%;
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+
+}
